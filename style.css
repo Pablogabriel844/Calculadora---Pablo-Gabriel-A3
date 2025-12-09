@@ -1,0 +1,99 @@
+/* Fundo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container central */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Calculadora */
+.calculator {
+    background: #111729;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0066ff88;
+}
+
+/* Display */
+.display {
+    background: #0d162b;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 15px;
+    color: #00aaff;
+    border: 2px solid #005eff;
+}
+
+/* Botões */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+.btn {
+    background: #0d162b;
+    color: #e0e6ff;
+    border: 2px solid #1f3b70;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #1a2b4d;
+    border-color: #007bff;
+}
+
+.op {
+    color: #00aaff;
+}
+
+/* Botão de igual */
+#equals {
+    background: #0077ff;
+    color: #fff;
+    border-color: #0060d4;
+}
+
+#equals:hover {
+    background: #1a8cff;
+}
+
+/* Histórico */
+.history-container {
+    background: #111729;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 350px;
+    overflow-y: auto;
+    box-shadow: 0 0 15px #0066ff55;
+}
+
+.history-container h2 {
+    color: #00aaff;
+    text-align: center;
+}
+
+ {
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #1f2e48;
+    color: #cce6ff;
+}
